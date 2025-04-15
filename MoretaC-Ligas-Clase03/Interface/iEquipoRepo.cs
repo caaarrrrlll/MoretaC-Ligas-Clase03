@@ -5,7 +5,7 @@ namespace MoretaC_Ligas_Clase03.Interface
     public interface iEquipoRepo
     {
         public List<Equipo> DevuelveListadoEquipos();
-        public Equipo DevuelveInfoEquipo();
+        public Equipo DevuelveInfoEquipo(int Id);
         bool ActualizarEquipo();
         bool CrearEquipo();
         public bool EliminarEquipo();

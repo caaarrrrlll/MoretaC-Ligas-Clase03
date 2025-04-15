@@ -13,8 +13,16 @@ namespace MoretaC_Ligas_Clase03.Controllers
             return View(equipos);
 
         }
+
+        public IActionResult Edit(int Id)
+        {
+            EquipoRepo repo = new EquipoRepo();
+            var equipo = repo.DevuelveInfoEquipo(Id);
+            return View(equipo);
+
+        }
     }
 }
 
-//esto es una prueba xdd
+
 

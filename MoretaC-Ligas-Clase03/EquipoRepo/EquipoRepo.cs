@@ -15,9 +15,11 @@ namespace MoretaC_Ligas_Clase03.EquipoRepo1
             throw new NotImplementedException();
         }
 
-        public Equipo DevuelveInfoEquipo()
+        public Equipo DevuelveInfoEquipo(int Id)
         {
-            throw new NotImplementedException();
+            var Equipos = DevuelveListadoEquipos();
+            var Equipo = Equipos.Where(item => item.Id == Id).First();
+            return Equipo;
         }
 
         public List<Equipo> DevuelveListadoEquipos()
