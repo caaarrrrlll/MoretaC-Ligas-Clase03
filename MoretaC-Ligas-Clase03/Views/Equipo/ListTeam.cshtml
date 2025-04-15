@@ -55,8 +55,8 @@
                 @Html.DisplayFor(modelItem => item.Puntos)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.Id }, new {@class = "btn btn-success"}) |
-                    
+                @Html.ActionLink("Editar", "Editar", new { id=item.Id }, new {@class = "btn btn-success"}) |
+                @Html.ActionLink("VerInfo", "VerInfo", new { id=item.Id},  new {@class = "btn btn-info"}) |
             </td>
         </tr>  
 }
