@@ -30,7 +30,7 @@ namespace MoretaC_Ligas_Clase03.EquipoRepo1
                 Id = 1,
                 Nombre = "Ldu",
                 PartidosGanados = 10,
-                PartidosEmpadaos = 0,
+                PartidosEmpatados = 0,
                 PartidosJugados = 10,
                 PartidosPerdidos = 0
             };
@@ -41,7 +41,7 @@ namespace MoretaC_Ligas_Clase03.EquipoRepo1
                 Id = 2,
                 Nombre = "Barcelona",
                 PartidosGanados = 1,
-                PartidosEmpadaos = 1,
+                PartidosEmpatados = 1,
                 PartidosJugados = 10,
                 PartidosPerdidos = 0
             };

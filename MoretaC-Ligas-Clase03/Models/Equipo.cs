@@ -10,6 +10,7 @@ namespace MoretaC_Ligas_Clase03.Models
         [MaxLength]
         [DisplayName("Nombre Equipo: ")]
         [Required]
+        public string Logo { get; set; }
         public string Nombre { get; set; }
         [Range(0,20)]
         public int PartidosJugados { get; set; }
@@ -18,12 +19,12 @@ namespace MoretaC_Ligas_Clase03.Models
         [Range(0, 20)]
         public int PartidosPerdidos { get; set; }
         [Range(0, 20)]
-        public int PartidosEmpadaos { get; set; }
+        public int PartidosEmpatados { get; set; }
         
         public int Puntos {
             get
             {
-                int puntos = PartidosGanados * 3 + PartidosEmpadaos * 1;
+                int puntos = PartidosGanados * 3 + PartidosEmpatados * 1;
                 return puntos;
             }
             
