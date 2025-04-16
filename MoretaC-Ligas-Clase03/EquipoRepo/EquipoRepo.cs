@@ -54,5 +54,11 @@ namespace MoretaC_Ligas_Clase03.EquipoRepo1
         {
             throw new NotImplementedException();
         }
+
+        /* footer 
+         Nombre= Carlos Moreta
+         Carrera= Ing.Software
+         Descripcion= me gusta jugar Marvel Rivals.
+        */
     }
 }

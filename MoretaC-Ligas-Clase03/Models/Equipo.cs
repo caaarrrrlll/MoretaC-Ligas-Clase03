@@ -29,8 +29,7 @@ namespace MoretaC_Ligas_Clase03.Models
             }
             
         }
-
-
-        
+  
     }
 }
+
